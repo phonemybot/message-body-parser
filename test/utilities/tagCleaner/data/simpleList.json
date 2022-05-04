@@ -1,0 +1,6 @@
+{
+    "title": "simple list",
+    "description": "simple html including a list",
+    "input": "<h1> This is a title </h1> <ul> <li> first bullet item </li> <li> second bullet item </li> </ul>",
+    "expectedOutput": "This is a title first bullet item <break time=\"1s\"/> second bullet item"
+}

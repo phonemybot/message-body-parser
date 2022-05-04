@@ -1,0 +1,6 @@
+{
+    "title": "basic html with escapes",
+    "description": "simple test data with basic html tags represented with escapes",
+    "input": " &lt;bold&gt; A title &lt;/bold&gt; and some text with &lt;bold&gt; bold &lt;/bold&gt; characters",
+    "expectedOutput": "A title and some text with bold characters"
+}

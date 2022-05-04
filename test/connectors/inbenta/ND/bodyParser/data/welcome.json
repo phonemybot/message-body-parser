@@ -1,0 +1,42 @@
+{
+    "title": "welcome",
+    "description": "welcome message extracted from the telco demo",
+    "session": { "chatbot": { "configuration": {} } },
+    "message": {
+        "answers": [
+          {
+            "type": "answer",
+            "message": "<p>Hi!</p>\n\n<p>How can I help you?</p>",
+            "messageList": [
+              "<p>Hi!</p>\n\n<p>How can I help you?</p>"
+            ],
+            "options": null,
+            "parameters": {
+              "contents": {
+                "title": "Welcome",
+                "attributes": [],
+                "trackingCode": {
+                  "clickCode": "eyJpdiI6ImN0SGFsVHFnQ0pQYnR4dHF0OEprbkE9PSIsInZhbHVlIjoiTE9uZWtYT3IwcUZ6SGwwbjRqUWtHSjVTSHp6YUdlMjRrdmtvUnhwT05jVlRoNDRteFlGOGZOUDJQNEhoSUs1XC9NbEhydWh3ZWo5Q2Y2UlwvaTRRWE5IUmcxbE9ZY2VWeEJQY3MwUDVab0tmZ3BzWHRRN29DVFZMZ2xWREhpYTA0dTBzN2lLc3NMWE9nazBLXC9FYVdYeDBjd0cxTjRYd25PUmxSR21kS09DTjhoR3luSEZzbDRBYWZhSXZLeTkzWHh1VnU0VHdYNGZ0OWVHUzRlbXJSNnRBZlFHMGFoS1luYlhvc3pJMmtSWHp0TT0iLCJtYWMiOiIyNzg5MDM1NTFiNTA0NjJiMmQ2NDg3MWY2ZDJkYTM4OTgzMzRhYmMwYmMzOTIwYmEyNzBiMTE2OTE5NThiNDU0In0=",
+                  "rateCode": "eyJpdiI6ImM5dDNrN3BLTjFNc2V2SThPUUlqSnc9PSIsInZhbHVlIjoiS09wMmNcL1FiUkpjcitCblk1NG1RbnV1ZG9vQ0hCNFVMZExIS29vXC93dStjUENEMFwvQk9aU05OZnNiSGVLdUlialV1ZHJScU9STHNwakZ4bkxhN29ndkZJejE5MjdPQ1B5cytOd3NqRDJhRGJvKzd6YnRmUGtqeDVyOTdRdXltTnhzQlI1bHdLZlNnSFViNXhyMkhtajRjdlJVbGpLQzZobTRYQjR6YkF5T2tPVStTczRmTFEwdjM5NHFqWTlsMlpQTXJ3b3ZyOVpCRXl4d1dpdzJXNEZPTENzWVBleitEbXBFOUJkcEx3M0hsND0iLCJtYWMiOiIwZDA2NDU5OWJlNzk5YTExMjlhNDdiZGMwNGQyZjE0ZjQxZjFjN2I1ZWY1NzI5MzIxODA1NzAyNTk1YmQ1YzlkIn0="
+                }
+              }
+            },
+            "flags": [
+              "no-rating"
+            ],
+            "attributes": {
+              "ANSWER_TEXT": "<p>Hi!</p>\n\n<p>How can I help you?</p>",
+              "RATINGS": "FALSE",
+              "DIRECT_CALL": "sys-welcome",
+              "inbMainTitle": "Welcome",
+              "title": "Welcome"
+            },
+            "source": {
+              "type": "chatbot",
+              "name": "Chatbot"
+            }
+          }
+        ]
+    },
+    "reply": "<p>Hi!</p><break time=\"1s\"/> <p>How can I help you?</p>"
+}

@@ -1,0 +1,41 @@
+{
+    "title": "polar question with disambiguation",
+    "description": "polar question sample extracted from the telco demo",
+    "session": {
+      "chatbot": {
+        "configuration": {
+          "addPolarQuestion":  true,
+          "polarQuestion": "say yes, please, or no, thank you"
+        }
+      }
+    },
+    "message": {
+      "answers": [
+        {
+          "type": "polarQuestion",
+          "message": "Do you want some help with that?",
+          "messageList": [
+            "Do you want some help with that?"
+          ],
+          "options": [
+            {
+              "value": "yes",
+              "label": "Yes"
+            },
+            {
+              "value": "no",
+              "label": "No"
+            }
+          ],
+          "parameters": null,
+          "flags": [],
+          "attributes": [],
+          "source": {
+            "type": "chatbot",
+            "name": "Chatbot"
+          }
+        }
+      ]
+    },
+    "reply": "Do you want some help with that?<break time=\"1s\"/> say yes, please, or no, thank you"
+}

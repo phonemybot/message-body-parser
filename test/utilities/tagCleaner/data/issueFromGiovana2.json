@@ -1,0 +1,6 @@
+{
+    "title": "issue from Giovana n.2",
+    "description": "simple tag with  hyphen",
+    "input": "\n  <say-as interpret-as=\"verbatim\">330.343.878-14</say-as>\n",
+    "expectedOutput": "<break time=\"1s\"/> <say-as interpret-as=\"verbatim\">330.343.878-14</say-as>"
+}

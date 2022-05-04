@@ -1,0 +1,93 @@
+{
+    "title": "polar question without additional diambiguation",
+    "description": "polar question sample extracted from the telco demo where no additional suggestion is required",
+    "session": {
+      "chatbot": {
+        "configuration": {
+          "addPolarQuestion":  false,
+          "polarQuestion": "say I found it, or I couldn't"
+        }
+      }
+    },
+    "message": {
+      "answers": [
+        {
+          "type": "answer",
+          "message": "<p>Ok.</p>\n\n<p>Generally if someone changes the username and password, they leave it written somewhere. Please check if you can find a note nearby with that information.</p>\n\n<p> </p>\n\n<p> </p>\n\n<p>.</p>",
+          "messageList": [
+            "<p>Ok.</p>\n\n<p>Generally if someone changes the username and password, they leave it written somewhere. Please check if you can find a note nearby with that information.</p>\n\n<p> </p>\n\n<p> </p>\n\n<p>.</p>"
+          ],
+          "options": null,
+          "parameters": {
+            "contents": {
+              "title": "New information.",
+              "attributes": [],
+              "trackingCode": {
+                "clickCode": "eyJpdiI6Ink4SDY2TkdKSGlrQmwwRjFEVkNUaVE9PSIsInZhbHVlIjoiNEJBWDlNbldkcU5UcGNpVm9rTVY4UUdIYk80cnNaSjVyajRkV2I1bnR1YWVQenptZVpcL2xjZFF6NmorMW1GQUJUUVkrQ3dGZzJJTkJaNnJnOUdTc0RXRlNlaHpDbEQwajYzXC9RTEwwbkdaZTZCZkxReDRIb1JjRFBEWk5HSjdjZ2FwNlViMGZiMnlrMkVDdE83ZE5kOU9va2RxUXB2VXE3OFdEMHd2bnhXbmE1bHNtZncxMVBrSVk4ZjNVd1Nvemx0dFdtTU5zOGZaTHhBaGJmWGRMN0pTK1VXWWtJcSt3M0RqQXQ0eklnWlRvPSIsIm1hYyI6ImY4NzJmOWVhODcyMjdlMjljNTQ3YmIyMmQ2OWZlZTE1NmI1ZmUwYzM1YjQ4NmI4YjUxYzdiNDcxZTExMjQwZTcifQ==",
+                "rateCode": "eyJpdiI6Imw2Ym9KOVJ1VzBFc3h6bkI5XC82QSt3PT0iLCJ2YWx1ZSI6Ik43OHNVTkVSSzZcL3hpNHlRWFd2SmF4ZnBqN2dFVTArRENCcHJkd1RXQisxZytISGVoY2xleXVhN2pYSmVMWjBkNm9HU1NnWlNsUDFSTjBMR1dHeGw3QkFoVkp2SmRBWnZBZGlob0lZVHVpTnpibDcrUnFrcW1MZU5yamxDa0JYeDZyRnRNa1E0QVhidmhpSFpyTFhlMWJMWkpqTnJDK1wvc1FqWUdURFVGb0dcL1doWTN6cEpvVGNMOFwvcE1waXdqN0tTdmtnRzdYQVA4Nnl5NVh6UjlxaEllaFh5R09udE1ZbTlUTk4xbkN0MkZzPSIsIm1hYyI6Ijc4NDgzOWU0ZjliMWQ1ODJmODg3ZDUyNGE1MjJmMDBkMWIzOTk1MzZhNTVhMDM5ZDRhOTgwNzA1MGQ5MmY1YTkifQ=="
+              }
+            }
+          },
+          "flags": [
+            "no-rating"
+          ],
+          "attributes": {
+            "CHECK_QUESTION": "Did someone alter your password or username?",
+            "ANSWER_TEXT": "<p>Ok.</p>\n\n<p>Generally if someone changes the username and password, they leave it written somewhere. Please check if you can find a note nearby with that information.</p>\n\n<p> </p>\n\n<p> </p>\n\n<p>.</p>",
+            "RATINGS": "FALSE",
+            "inbMainTitle": "New information.",
+            "title": "New information."
+          },
+          "source": {
+            "type": "chatbot",
+            "name": "Chatbot"
+          }
+        },
+        {
+          "type": "answer",
+          "message": "If you could find it, say found it, if not, say, no, I couldn't.",
+          "messageList": [
+            "If you could find it, say found it, if not, say, no, I couldn't."
+          ],
+          "options": null,
+          "parameters": null,
+          "flags": [],
+          "attributes": null,
+          "source": {
+            "type": "chatbot",
+            "name": "Chatbot"
+          }
+        },
+        {
+          "type": "polarQuestion",
+          "message": "Did you find it?",
+          "messageList": [
+            "Did you find it?"
+          ],
+          "options": [
+            {
+              "value": "yes",
+              "label": "Yes"
+            },
+            {
+              "value": "no",
+              "label": "No"
+            }
+          ],
+          "parameters": null,
+          "flags": [],
+          "attributes": {
+            "ANSWER_TEXT": "<p>\n\tGreat! Keep your password saved in a safe place, and don't share it with others so you are sure the router will keep operating as expected.\n</p>",
+            "RATINGS": "FALSE",
+            "inbMainTitle": "Found it.",
+            "title": "Found it."
+          },
+          "source": {
+            "type": "chatbot",
+            "name": "Chatbot"
+          }
+        }
+      ]
+    },
+   "reply": "<p>Ok.</p><break time=\"1s\"/> <p>Generally if someone changes the username and password, they leave it written somewhere. Please check if you can find a note nearby with that information.</p><break time=\"1s\"/> <p> </p><break time=\"1s\"/> <p> </p><break time=\"1s\"/> <p>.</p><break time=\"1s\"/> If you could find it, say found it, if not, say, no, I couldn't.<break time=\"1s\"/> Did you find it?"
+}

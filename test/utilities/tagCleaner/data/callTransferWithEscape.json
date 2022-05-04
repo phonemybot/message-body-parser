@@ -1,0 +1,6 @@
+{
+    "title": "basic call transfer",
+    "description": "simple test data with basic html tags and call transfer tag using escape chars",
+    "input": "<h1> This a title </h1> and some text with <bold> bold </bold> characters and call transfer &lt;transfer referto=\"+1333444455555\" /&gt;",
+    "expectedOutput": "This a title and some text with bold characters and call transfer <transfer referto=\"+1333444455555\" />"
+}

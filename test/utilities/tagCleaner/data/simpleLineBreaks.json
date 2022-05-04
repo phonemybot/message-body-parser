@@ -1,0 +1,6 @@
+{
+    "title": "simple line breaks",
+    "description": "simple html with line breaks",
+    "input": "<h1> This a title </h1> \n some text \n \n some other text",
+    "expectedOutput": "This a title <break time=\"1s\"/> some text <break time=\"1s\"/> some other text"
+}

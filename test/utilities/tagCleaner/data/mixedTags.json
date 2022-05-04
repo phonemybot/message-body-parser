@@ -1,0 +1,6 @@
+{
+    "title": "mixed tags",
+    "description": "simple html sample with mixed tags",
+    "input": "starting with  <dummie /> something then <html><prompt option = 'foo' > <h1> A title </h1> and <emphasis> some text </emphasis> with <bold> bold </bold> characters </prompt> <hungup/></html> ending",
+    "expectedOutput": "starting with something then <prompt option = 'foo' > A title and <emphasis> some text </emphasis> with bold characters </prompt> <hungup/> ending"
+}

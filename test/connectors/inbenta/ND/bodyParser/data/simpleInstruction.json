@@ -1,0 +1,67 @@
+{
+    "title": "simple instruction",
+    "description": "simple instruction sample extracted from the telco demo",
+    "session": {
+      "chatbot": {
+        "configuration": {
+          "addPolarQuestion":  true,
+          "polarQuestion": "say I found it, or I can't find it"
+        }
+      }
+    },
+    "message": {
+      "answers": [
+        {
+          "type": "answer",
+          "message": "<p>Well your router&#39;s username and password could have been altered or still be with the default information. So please tell me if someone changed them, by saying, new information, or if they are still with the manufacturers information, by saying, default information.</p>",
+          "messageList": [
+            "<p>Well your router&#39;s username and password could have been altered or still be with the default information. So please tell me if someone changed them, by saying, new information, or if they are still with the manufacturers information, by saying, default information.</p>"
+          ],
+          "options": null,
+          "parameters": {
+            "contents": {
+              "title": "How can I find / know my router's username and password?",
+              "attributes": [],
+              "trackingCode": {
+                "clickCode": "eyJpdiI6IkJxTmQ3UXNrRGJRM1ZtXC9mNFRIRFhRPT0iLCJ2YWx1ZSI6IlpzdDZIN3B6ZXRiSHUxUmVhSlFBdEFWd2xTaWRiSnhIbkdvQnVYTFZpazhrTm93dGg4NmtDYWk1MFZpdmJkcU5XaTdZZ0F6MlFZZ0xSXC9yRUQrXC9MRkgwQ2RXeFc0aHdlZ1lqOHZFUDB0NUkwSGNzXC82bVdHeHlwc3UxSUlKaWoyQ0Y5UkkzcWZqdlAralVEcjl3K20zTEduR0sxOVBMdmhZays4UHZSS0ZDbU81R3FEcU5UYStNUTdiS1BRcDg5QkRtSkRkdHBnTXZtRUhxY3JQbmhHKzZTTmVoanh6XC9tdHg5OW1oTHNZVDRZPSIsIm1hYyI6ImFhY2JhNzQwYzY1OWIwMzU3MmRmNGFjMWI3YTE4ZTQzYTJkOWJlNmIwZWM5ZDdlOTZiZjgwZWY3NWEzMTA5NWQifQ==",
+                "rateCode": "eyJpdiI6IjVlTllLVm9QTGtGNGZybDBadFVSR1E9PSIsInZhbHVlIjoiOGJqdzFcL3NRTVhrcFllQktMczY3ZDBZR0U1djMxN1FXaUZ6UGZEbWg2bVVDcmRqaFpadmVjdzVPNk91c0JyTE4rN1E2YjZTYitJVHhcL3RSQkdva3FZRmZRZ2hNUUlIelJta3hhV0ZkNUxPeTF2SW1VTTRuVGhuaEVIQ25EWE1aTG5XMjlRR3l1Sk4ySnVUcDQ1SElLdDBwMFBOdlwvS0dBUnN5TDFjOUJVR2Fycnhjc2lvNk5WQ1wvWlQ2d1RtRFRDbXZzcVlvYXd3MjNoNG1jU1ZOTnY2YTZ3OVRNaG15VGk1dmdDUWp5UG9EUlk9IiwibWFjIjoiYmU1ODJkMTg5NGYwMDAyYzRjN2VjZTBiNDEwNGNhMWI5NjFiMjY3ZmQxZjVjZWU1Mjk0OGFiYTE5MjI1OWQ4NSJ9"
+              }
+            }
+          },
+          "flags": [
+            "no-rating"
+          ],
+          "attributes": {
+            "CHECK_QUESTION": "Do you need to know your router's username or password?",
+            "ANSWER_TEXT": "<p>Well your router&#39;s username and password could have been altered or still be with the default information. So please tell me if someone changed them, by saying, new information, or if they are still with the manufacturers information, by saying, default information.</p>",
+            "inbMainTitle": "How can I find / know my router's username and password?",
+            "title": "How can I find / know my router's username and password?"
+          },
+          "source": {
+            "type": "chatbot",
+            "name": "Chatbot"
+          },
+          "intent": {
+            "type": "KB",
+            "score": 0.4858649631804
+          }
+        },
+        {
+          "type": "answer",
+          "message": ".",
+          "messageList": [
+            "."
+          ],
+          "options": null,
+          "parameters": null,
+          "flags": [],
+          "attributes": null,
+          "source": {
+            "type": "chatbot",
+            "name": "Chatbot"
+          }
+        }
+      ]
+    },
+    "reply": "<p>Well your router&#39;s username and password could have been altered or still be with the default information. So please tell me if someone changed them, by saying, new information, or if they are still with the manufacturers information, by saying, default information.</p><break time=\"1s\"/> ."
+}

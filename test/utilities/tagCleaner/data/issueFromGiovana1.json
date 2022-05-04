@@ -1,0 +1,6 @@
+{
+    "title": "issue from Giovana n.1",
+    "description": "simple prompt with bargein",
+    "input": "<prompt bargein='true' >Olá Francesco, sou o assistente virtual da Bella Nápoli, a única pizzaria italiana de São Paulo. Como posso te ajudar?</prompt >",
+    "expectedOutput": "<prompt bargein='true' >Olá Francesco, sou o assistente virtual da Bella Nápoli, a única pizzaria italiana de São Paulo. Como posso te ajudar?</prompt >"
+}

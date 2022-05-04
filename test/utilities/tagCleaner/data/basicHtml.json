@@ -1,0 +1,6 @@
+{
+    "title": "basic html",
+    "description": "simple test data with basic html tags",
+    "input": "<h1> This a title </h1> and some text with <bold> bold </bold> characters",
+    "expectedOutput": "This a title and some text with bold characters"
+}

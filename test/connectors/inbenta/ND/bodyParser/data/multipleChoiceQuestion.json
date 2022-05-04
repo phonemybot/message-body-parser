@@ -1,0 +1,115 @@
+{
+    "title": "nultiple choice question",
+    "description": "multiple choice question extracted from the telco demo",
+    "session": {
+      "chatbot": {
+        "configuration": {
+          "addPolarQuestion":  true,
+          "polarQuestion": "say yes, please, or no, thank you"
+        }
+      }
+    },
+    "message": {
+      "answers": [
+        {
+          "type": "answer",
+          "message": "<p>Great. Now I need to know which router you have.</p>",
+          "messageList": [
+            "<p>Great. Now I need to know which router you have.</p>"
+          ],
+          "options": null,
+          "parameters": {
+            "contents": {
+              "title": "Default information.",
+              "attributes": [],
+              "trackingCode": {
+                "clickCode": "eyJpdiI6IlVzKzQxUVphZnM3a2YzZ0g4MGcwQnc9PSIsInZhbHVlIjoiaFFyaTJMaGFqVjB1NVkzZlRCWUQ5eCtJRlFNajkzZWhnNGdHUllzaUl2ZlFNRlp2R0JQWjN4MGE3ZWl3ZkRBeDNCdXVMZGljZzd6Q2hWR0l3VTF0ZXVkUzRDSk83N0FUNk1TMTc1MmExWG5jNm9KU2RrOHc5XC8xRG5uZjhWZDFXWEpFUThJd3dReThVZjlsekVSQWZrRDM3MTVXNGxVNGVnbnhmUXdHblwvZ3hqR2t3XC9OdnI3S3M5MllZSGk3bnlDRUJrMTIzSGdVRHI4R1ozMzlRbzNDNHh3SEZHZXdPcXFBWURkaWhTc2pVMD0iLCJtYWMiOiIyNjVhOWU5MGRiYTJhMWJlZTQyMmJlMzczODU3ZGUxYmRhNjBiYTU2OWUyYWRmYTlhNzE1NjMwOTU0NTE4MTE5In0=",
+                "rateCode": "eyJpdiI6Ikh3UVwvM2lxZXRUaGxzSFUwWmNsQmZBPT0iLCJ2YWx1ZSI6ImNVN0JTdnRWN3hWQ0VXcCtnMXptaElUa1wvbENGc2t2cDNVY1JUZEs2VWpnQnh2K1FiUHZaclwvVHVYRkJSMzdnQjRVS09xb21hRVlwb043ZWxFQlJGcGVyTlRMZGVDSktuRVdzWkpyM0tKNTFISjlRQlJ4OTl1NjhsMVwvWFB2UVQwVmJKcE95anBvSWxHeGFYQXVXV2ZXdlVJcVRObjBiZUtmM2JOcG81ZnpWcEZwZEJnVVU2XC9qb3BxeHdRRmRwVWJWMjRFMDJjeVllRDZkcmJpS3A4M0xDcThUUVRIWDVYZjByaG1xU0I1ekxNPSIsIm1hYyI6IjdlOWJhZmZlMmIxY2IwMTY0NjhkMGMxNTg0ZWJiNTAxNmFkN2UwYzc1MGRlZGViYzBmYzA2MTVkZDBkMzIxZGYifQ=="
+              }
+            }
+          },
+          "flags": [
+            "no-rating"
+          ],
+          "attributes": {
+            "CHECK_QUESTION": "Do you need to know your router's default login?",
+            "ANSWER_TEXT": "<p>Great. Now I need to know which router you have.</p>",
+            "inbMainTitle": "Default information.",
+            "title": "Default information."
+          },
+          "source": {
+            "type": "chatbot",
+            "name": "Chatbot"
+          }
+        },
+        {
+          "type": "multipleChoiceQuestion",
+          "message": "So. What are your routers vendor and model?",
+          "messageList": [
+            "So. What are your routers vendor and model?"
+          ],
+          "options": [
+            {
+              "value": 25,
+              "label": "D link DI 624",
+              "attributes": {
+                "CHECK_QUESTION": "Do you need the default username and password for D-Link DI-624?",
+                "ANSWER_TEXT": "<p>In this case, the default username is &quot;admin&quot; and for the password, you can leave it blank.</p>",
+                "SIDEBUBBLE_TEXT": "<iframe src=\"https://www.verizon.com/support/residential/internet/fiosinternet/networking/troubleshooting/dlink624/130259.htm\"></iframe>",
+                "inbMainTitle": "D-Link DI-624.",
+                "title": "D-Link DI-624."
+              }
+            },
+            {
+              "value": 26,
+              "label": "Verizon 9100 E M",
+              "attributes": {
+                "CHECK_QUESTION": "Do you need to know the default username and password for Verizon 9100 EM?",
+                "ANSWER_TEXT": "<p>For the Verizon 9100, the username is &quot;admin&quot; and password &quot;password&quot;.</p>\n\n<p>The&nbsp;password could also be the serial number of your router to improve security.&nbsp;<br />\nThe serial number can be found on the label affixed to the back or bottom of your router.</p>",
+                "inbMainTitle": "Verizon 9100 EM.",
+                "title": "Verizon 9100 EM."
+              }
+            },
+            {
+              "value": 27,
+              "label": "Verizon 9100 V M",
+              "attributes": {
+                "CHECK_QUESTION": "Do you need to know the default username and password for Verizon 9100VM?",
+                "ANSWER_TEXT": "<p>For the Verizon 9100, the username is &quot;admin&quot; and password &quot;password&quot;.</p>\n\n<p>The&nbsp;password could also be the serial number of your router to improve security.</p>\n\n<p>The serial number can be found on the label affixed to the back or bottom of your router.</p>",
+                "inbMainTitle": "Verizon 9100VM.",
+                "title": "Verizon 9100VM."
+              }
+            },
+            {
+              "value": 28,
+              "label": "Verizon MI 424 WR",
+              "attributes": {
+                "CHECK_QUESTION": "Do you need to know the default username and password for Verizon MI424WR?",
+                "ANSWER_TEXT": "<p>For the Verizon MI424WR, the username is &quot;admin&quot; and password &quot;password&quot;.</p>\n\n<p>The&nbsp;password could also be the serial number of your router to improve security.</p>\n\n<p>The serial number can be found on the label affixed to the back or bottom of your router.</p>",
+                "inbMainTitle": "Verizon MI424WR.",
+                "title": "Verizon MI424WR."
+              }
+            },
+            {
+              "value": 29,
+              "label": "Actiontec MI 424 WR",
+              "attributes": {
+                "CHECK_QUESTION": "Do you need to know the default username and password for Actiontec MI424WR?",
+                "ANSWER_TEXT": "<p>For the Actiontec MI424WR, the username is &quot;admin&quot; and password &quot;password&quot;.</p>\n\n<p>The&nbsp;password could also be the serial number of your router to improve security.</p>\n\n<p>The serial number can be found on the label affixed to the back or bottom of your router.</p>",
+                "inbMainTitle": "Actiontec MI424WR.",
+                "title": "Actiontec MI424WR."
+              }
+            }
+          ],
+          "parameters": null,
+          "flags": [],
+          "attributes": null,
+          "source": {
+            "type": "chatbot",
+            "name": "Chatbot"
+          }
+        }
+      ]
+    },
+    "reply": "<p>Great. Now I need to know which router you have.</p><break time=\"1s\"/> So. What are your routers vendor and model?<break time=\"1s\"/> D link DI 624<break time=\"1s\"/> Verizon 9100 E M<break time=\"1s\"/> Verizon 9100 V M<break time=\"1s\"/> Verizon MI 424 WR<break time=\"1s\"/> Actiontec MI 424 WR"
+}

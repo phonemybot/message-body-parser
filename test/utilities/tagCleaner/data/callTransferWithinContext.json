@@ -1,0 +1,6 @@
+{
+    "title": "callTransfer in context",
+    "description": "simple test data with basic html tags and call transfer tag",
+    "input": "<context name = 'date'> <h1> Fake title. </h1> Some text with <bold> bold </bold> characters and call transfer <transfer referto=\"+1333444455555\" /> </context>",
+    "expectedOutput": "<context name = 'date'> Fake title. Some text with bold characters and call transfer <transfer referto=\"+1333444455555\" /> </context>"
+}

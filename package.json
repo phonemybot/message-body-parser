@@ -1,0 +1,22 @@
+{
+  "name": "message-body-parser",
+  "version": "0.0.1",
+  "description": "Parser converting the body sent in a message of an Inbenta's chatbot to the format required for PhoneMyBot adaptor",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha --exit \"./test/**/*.js\"",
+    "start": "node src/app.js | pino-pretty -t -i pid,hostname --levelFirst"
+  },
+  "author": "Interactive Media SpA",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^9.2.0"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
