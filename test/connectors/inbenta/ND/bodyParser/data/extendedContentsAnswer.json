@@ -1,0 +1,65 @@
+{
+    "title": "extendedContentsAnswer",
+    "description": "more resources from the help center",
+    "session": { "chatbot": { "configuration": {
+      "referToWebsite": "please refer to our website for more information"
+      } } },
+    "message": {
+      "answers": [
+        {
+          "type": "extendedContentsAnswer",
+          "message": "Few more results from our Help Center",
+          "messageList": [
+            "Few more results from our Help Center"
+          ],
+          "options": null,
+          "parameters": null,
+          "flags": [],
+          "attributes": null,
+          "source": {
+            "type": "chatbot",
+            "name": "Chatbot"
+          },
+          "additionalData": [],
+          "subAnswers": [
+            {
+              "type": "answer",
+              "message": "What businesses are prohibited from using Synapse?",
+              "messageList": [
+                "What businesses are prohibited from using Synapse?"
+              ],
+              "options": null,
+              "parameters": {
+                "contents": {
+                  "title": "What businesses are prohibited from using Synapse?",
+                  "attributes": [],
+                  "url": {
+                    "value": "https://help.synapsefi.com/hc/en-us/articles/205484498-What-businesses-are-prohibited-from-using-Synapse-",
+                    "target": "_blank"
+                  },
+                  "trackingCode": {
+                    "clickCode": "eyJpdiI6Imh4RGpGdHYxYkVaU0dveUV2Q1M5NHc9PSIsInZhbHVlIjoicGY1RGlXb0ZwV1pURkhxM3VoSEJBVG9RQXhQd1h1RENKTWR3a1cxeE9BS2lpTEZVMlZvdU9OUzNnU3BCSE1wdFRuWmhVRXhKMFVmcE5EcEZUUUhwaE0zWFJMbWxsXC9tSVFmRytKQ0ZLakhBSXk1RXZPUkxFc1haY0UxZHE1czUyajRqakdiQlZrdnFXbmFXaXc0enF4aUczQVc4a3ByZ01GMnVEb2pUbWNpMFl0blNUNFRBT3RXZmppUzdDaUlXdzFcL3dVMFdLZnkxS0tYR3Q2c0hRZzVqVXlxSmlUdWtVN0RiUHZVdVpHMWRPVmRuNzVkaTNIY0JHYXFiZk11Ym9DNXpaTHhpRExGSzRQc2lPT29HWFBDdERhRVpYSVdocDlLWmMwTGJ4aEVPY0gyY3RMazFsQkc2cDhkbFVXbHN2TiIsIm1hYyI6ImIwMjkwYzZmYmE3ZmE0YmFhZTIzODAzZWM0ODFiNGYwMjU5MjQyZGI1MjNjODg3NjBiNTZjMjYxNmQ3ZTNjOGQifQ=="
+                  }
+                }
+              },
+              "flags": [],
+              "attributes": {
+                "ANSWER_TEXT": "What businesses are prohibited from using Synapse?",
+                "title": "What businesses are prohibited from using Synapse?"
+              },
+              "source": {
+                "type": "external_search",
+                "name": "Super Search"
+              },
+              "intent": {
+                "type": "External",
+                "score": 0.38399465140914
+              },
+              "additionalData": []
+            }
+          ]
+        }
+      ]
+    },
+    "reply": "please refer to our website for more information"
+}

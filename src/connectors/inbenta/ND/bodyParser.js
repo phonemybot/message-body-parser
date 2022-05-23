@@ -39,7 +39,9 @@ module.exports = function(input) {
         }
         break;
       case 'extendedContentsAnswer' :
-        var newText = configuration.referToWebsite ? configuration.referToWebsite : 'configuration error';
+        var newText = configuration.referToWebsite ? configuration.referToWebsite : null;
+        if(!newText) 
+        throw `missing 'referToWebsite' text parameter for ${answer.type}`;
         vocalMessage= appendNewText(vocalMessage, newText);
         break;
       case 'multipleChoiceQuestion' :

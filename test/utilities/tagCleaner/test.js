@@ -20,6 +20,7 @@ describe("=====> testing tagCleaner", async function() {
     }
 
     it(`performance test with 100.000 basic checks`, async function() {
+      this.timeout(40000);
       const test = require('./data/mixedTags.json');
       let countDown = 100000;
       while(countDown > 0) {
