@@ -1,0 +1,64 @@
+{
+  "title": "nultiple choice question with vocal message",
+  "description": "multiple choice question extracted from the superbot demo",
+  "session": {
+    "chatbot": {
+    }
+  },
+  "message": {
+    "answers": [
+      {
+        "type": "multipleChoiceQuestion",
+        "message": "There is more than one answer which may help you find the information you need. Please click on the highlighted answers below for more detail:",
+        "messageList": [
+          "There is more than one answer which may help you find the information you need. Please click on the highlighted answers below for more detail:"
+        ],
+        "options": [
+          {
+            "value": 57,
+            "label": "Where can I some Asian style food the North Terminal after security?",
+            "attributes": {
+              "ANSWER_TEXT": "We have Wagamama's or Yo! Sushi. Both offer delicious oriental food at great prices!",
+              "DIRECT_CALL": "ASIAN",
+              "inbMainTitle": "Where can I some Asian style food the North Terminal after security?",
+              "title": "Where can I some Asian style food the North Terminal after security?"
+            },
+            "revisitableLink": "eyJpdiI6Inhzb2tuWHlJdzJ3Y0pNQ2gzWmQ1T1E9PSIsInZhbHVlIjoiZ24yNW1EY3ZhRkVBRVVGdWtBVHdPVmJvOCtsR2VoTVwvSk9JT0pTTWtZbU1RdVlkQjVDUW5BNUQ4bG9DZ1VHVjRUaGdBQzM2aWhLcU9cL1hhWTdRUXZpc3RqRVlyN0tsanpUSUZNQUpHeEhybFFHTTRXcE9DbklWVHJFWUp0R1BqQ05XTHZWTEc3Zmp1K2VaR21HeG5EcmxIRHJDejlxSWVSWDZsZWZiZVZ5cTNJcTcwRjJGWDJ0aVhRczNibnVaR20wdkJzeUMxQjZ0M2N0SlU3Y1BpeStBZTJPTzRLQ3cxblVibWRYNER0ZUVrMXkzU3VzOGE0UWdlbGt4cUNhYnk1VTBld1Nyd3VlYmprdFZoQjBDbWhvZz09IiwibWFjIjoiN2NiYzgzZDE1Zjg2M2YxMzQ1YjNhY2Q5YWU4ZjI5NjBlNjdkOTllZDhkOWU3YjllYjk4Njg0Nzc5YTcxMjA0OCJ9",
+            "intent": {
+              "type": "KB",
+              "score": 0.55584386754227
+            }
+          },
+          {
+            "value": 67,
+            "label": "Where can I some Asian style food the South Terminal after security?",
+            "attributes": {
+              "ANSWER_TEXT": "In that case I would try Wagamama's. Whether eating in or taking out all dishes are cooked fresh and served within 15 minutes of ordering. Open from 4:30am they serve traditional dishes such as a full English breakfast, granola and porridge. Or, if you’re feeling adventurous try the okonomiyaki, a Japanese-style omelette.",
+              "RATINGS": "AUTO",
+              "DIRECT_CALL": "SOUTH_ASIAN_STYLE",
+              "VOICE_ANSWER": "<p>Real Thai Restaurant has great reviews.&nbsp;</p>",
+              "inbMainTitle": "Where can I some Asian style food the South Terminal after security?",
+              "title": "Where can I some Asian style food the South Terminal after security?"
+            },
+            "revisitableLink": "eyJpdiI6IjlwUzVqd3FsdFhyWU9iTnk3MEdlbXc9PSIsInZhbHVlIjoiWG9WMUdjWDQ5NFVSa0U0bmpxbFJ3amRDaGpBMGRlWXhnN3ZEUEorbm01dGc5VUcycHVWTnBScHhiSzgwc29udGpqMk5mQklJaGl3ZUdJT2h1VFRtNUw1Ym9sWkptYlJjcW1oSmxwc3FqRnlEbzd5ejhieG0xRytBYVZLT1BFbWczXC9DUzNCRHg3RFgzXC9HZXhvQXNGczVPSGc4NFYyWG5QUHJkNUxEXC9WbEZYU1JuTDd0akZYdDJpb1BtZjdxWGx6UFRWZDM5NGNyMHlUeXN4a29pZ284VVo5VHY2YXZoWW5rSGc4dGI5OTJEeWxTSWdcL2JlaXhlTlM5VCtmTWlCY0VQOHZETFp0a2tKZHV4ZkxybDdXeXMzK1J2UzNcL290ZG92Z2xZM2VLakpVcz0iLCJtYWMiOiJjYWU3NDM5YTYzNTFlZGIxMjFmMWQ0NjBjMTY0N2QzMmQ5ZmVjMmYxZWQ5ODc3MzQ4OTgzMTEyMzRiMGE2ZDNlIn0=",
+            "intent": {
+              "type": "KB",
+              "score": 0.55584386754227
+            }
+          }
+        ],
+        "parameters": null,
+        "flags": [
+          "multiple-options"
+        ],
+        "attributes": null,
+        "source": {
+          "type": "chatbot",
+          "name": "Chatbot"
+        },
+        "additionalData": []
+      }
+    ]
+  },
+  "reply": "<p>Real Thai Restaurant has great reviews.&nbsp;</p>"
+}

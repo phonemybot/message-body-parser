@@ -45,6 +45,18 @@ module.exports = function(input) {
         vocalMessage= appendNewText(vocalMessage, newText);
         break;
       case 'multipleChoiceQuestion' :
+        // CHECK IF THERE IS A FORCED VOICE MESSAGE
+        let forcedVoiceMessage = null;
+        if(answer.options && answer.options.length > 0) {
+          forcedVoiceMessage = answer.options.find( o => { 
+            return o.attributes !== null && typeof o.attributes.VOICE_ANSWER === 'string'
+          });
+          if(forcedVoiceMessage) {
+            vocalMessage = tagCleaner(forcedVoiceMessage.attributes.VOICE_ANSWER);
+            break;
+          }
+        }
+        // GO ON IF THERE IS NOT A FORCED VOICE MESSAGE
         var newText = tagCleaner(answer.message);
         vocalMessage = appendNewText(vocalMessage, newText);
         if (answer.options && answer.options.length > 0) answer.options.forEach( option => {

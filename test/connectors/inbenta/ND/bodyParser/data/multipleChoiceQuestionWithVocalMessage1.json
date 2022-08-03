@@ -1,0 +1,63 @@
+{
+  "title": "nultiple choice question with vocal message",
+  "description": "multiple choice question extracted from the superbot demo",
+  "session": {
+    "chatbot": {
+    }
+  },
+  "message": {
+    "answers": [
+      {
+        "type": "multipleChoiceQuestion",
+        "message": "Here are a few different answers which may help you:",
+        "messageList": [
+          "Here are a few different answers which may help you:"
+        ],
+        "options": [
+          {
+            "value": 38,
+            "label": "Places Near Me",
+            "attributes": {
+              "ANSWER_TEXT": "<p>Great! I will help you with that.</p>",
+              "DIRECT_CALL": "GOOGLE_MAPS_DEMO",
+              "ALTERNATIVE_TITLE": "Google Maps Demo",
+              "inbMainTitle": "Places Near Me",
+              "title": "Places Near Me"
+            },
+            "revisitableLink": "eyJpdiI6IkJHMGNoQkRJMDBwejFBazB0cWZ6MUE9PSIsInZhbHVlIjoiR1RXb1NJS0N5M29maTdTeFJkY1lKRnpvK2JQVnZZbnVoVk9UYkU3a2NZUU41bmV1Nk13aVI0WFdjZmFSYzJnOHBnTHZyMjEzOURKdWkrTlVlT2pzUHhTMjh4N2U5b2VvbXIzcWdJVVoxM1dzU0V0QjNIZnJRTDJ0aXgzYnZvMnErOVVnQXZGZDR1VVd2eTYralBPUGJCeHBGM29jMVl5Q3FPYit0MFwvcXlkZ1wvMzRJUkNHd1VUYXJ1Nk5sYWk3MVd1Tldid0VLY3JoMTJPYUU5QnREdjlhK2dnRnBSSXMweVdFYlFibE1EU2dkcEF4VDM0QWJ1MG9SRldGR3JsNllaZHhQdWVBWjFuSFFQd1FZTnFRZUFTV0RqdGFNZCtBVkE0ZzYyUFMzZTN4WT0iLCJtYWMiOiIxMWEyNzlhZTBhZTFkMWRhOTEyMGI2ZDcxZDgwYTY1YmUxYzc0YjM4YmFkOGFkM2IwNDMyNjIxZGZmMTA3Yjc4In0=",
+            "intent": {
+              "type": "KB",
+              "score": 0.34955594941203
+            }
+          },
+          {
+            "value": 49,
+            "label": "Where are Inbenta offices based?",
+            "attributes": {
+              "ANSWER_TEXT": "<p>Inbenta started&nbsp;in the city of Barcelona, Spain and now has <a href=\"http://www.inbenta.com/en/about-us/offices\" target=\"_blank\">offices</a> in France, Brazil, Chile, Mexico, Japan and the United States. Our Worldwide Headquarters are located in the San Francisco Bay Area.</p><p>We work with <a href=\"http://www.inbenta.com/en/customers/\" target=\"_blank\">clients</a> from all over the world!</p>",
+              "RATINGS": "AUTO",
+              "VOICE_ANSWER": "<p>Inbenta has offices in the US, Europe, LATAM, and Japan.</p>",
+              "inbMainTitle": "Where are Inbenta offices based?",
+              "title": "Where are Inbenta offices based?"
+            },
+            "intent": {
+              "type": "KB",
+              "score": 0.25789015844721
+            }
+          }
+        ],
+        "parameters": null,
+        "flags": [
+          "multiple-options"
+        ],
+        "attributes": null,
+        "source": {
+          "type": "chatbot",
+          "name": "Chatbot"
+        },
+        "additionalData": []
+      }
+    ]
+  },
+  "reply": "<p>Inbenta has offices in the US, Europe, LATAM, and Japan.</p>"
+}
